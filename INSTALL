@@ -7,4 +7,5 @@ set -e -x
 ln -s $PWD/bash_path    ~/.bash_path    && \
 ln -s $PWD/bash_profile ~/.bash_profile && \
 ln -s $PWD/bashrc       ~/.bashrc       && \
-ln -s $PWD/inputrc      ~/.inputrc
+ln -s $PWD/inputrc      ~/.inputrc      && \
+ln -s $PWD/vimrc        ~/.vimrc

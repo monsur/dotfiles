@@ -6,5 +6,6 @@ set -e -x
 # link dotfiles to git repo
 ln -s $PWD/bash_path    ~/.bash_path    && \
 ln -s $PWD/bash_profile ~/.bash_profile && \
+ln -s $PWD/bash_prompt  ~/.bash_prompt  && \
 ln -s $PWD/bashrc       ~/.bashrc       && \
 ln -s $PWD/inputrc      ~/.inputrc

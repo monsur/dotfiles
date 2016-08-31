@@ -41,7 +41,6 @@ highlight MatchParen guibg=HotPink guifg=yellow gui=bold
 if has('gui_running')
   set guifont=Ubuntu\ Mono\ 16
   set background=dark
-  colorscheme solarized
 endif
 
 " show trailing whitespace.

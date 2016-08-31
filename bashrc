@@ -42,7 +42,9 @@ fi
 [[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm"
 
 # Set the prompt
-PS1='\n\[\033[38;5;34m\]============================================================\n\w\n>\[\033[0m\] '
+if [ -f ~/.bash_prompt ]; then
+    . ~/.bash_prompt
+fi
 
 # Load the PATH updates from a separate file
 if [ -f ~/.bash_path ]; then

@@ -1,0 +1,10 @@
+#!/bin/bash
+
+# Fail on error
+set -e -x
+
+# link dotfiles to git repo
+ln -s $PWD/bash_path    ~/.bash_path    && \
+ln -s $PWD/bash_profile ~/.bash_profile && \
+ln -s $PWD/bashrc       ~/.bashrc       && \
+ln -s $PWD/inputrc      ~/.inputrc

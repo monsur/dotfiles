@@ -56,3 +56,7 @@ function! HighlightTooLongLines()
     exec 'match RightMargin /\%<' . (&textwidth + 3) . 'v.\%>' . (&textwidth + 1) . 'v/'
   endif
 endfunction
+
+if filereadable(glob("~/.vimrc.work")) 
+  source ~/.vimrc.work
+endif

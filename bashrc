@@ -51,3 +51,7 @@ if [ -f ~/.bash_path ]; then
     . ~/.bash_path
 fi
 
+# Load work-only config
+if [ -f ~/.bash_work ]; then
+    . ~/.bash_work
+fi

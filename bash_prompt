@@ -1,6 +1,6 @@
 if   [[ $HOSTNAME = Monsurs-* ]]; then
     color=34
-elif [[ $HOSTNAME = monsur-macbookair* ]]; then
+elif [[ $HOSTNAME = monsurs-mbp* ]]; then
     color=39
 fi
 

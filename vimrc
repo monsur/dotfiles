@@ -43,8 +43,6 @@ if has('gui_running')
   set background=dark
 endif
 
-colorscheme solarized
-
 " show trailing whitespace.
 set list
 set listchars=tab:>·,trail:·,extends:#,nbsp:·

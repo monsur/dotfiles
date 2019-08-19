@@ -35,15 +35,10 @@ filetype on
 filetype plugin on " auto detect type of file being edited
 filetype indent on " auto indent plugin
 
-syntax on " use syntax color highlighting
+set background=dark
+syntax on
 highlight MatchParen guibg=HotPink guifg=yellow gui=bold
-
-if has('gui_running')
-  set guifont=Ubuntu\ Mono\ 16
-  set background=dark
-endif
-
-colorscheme solarized
+set guifont=Ubuntu\ Mono\ 16
 
 " show trailing whitespace.
 set list

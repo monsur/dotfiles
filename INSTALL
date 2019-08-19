@@ -9,4 +9,5 @@ ln -s $PWD/bash_profile ~/.bash_profile && \
 ln -s $PWD/bash_prompt  ~/.bash_prompt  && \
 ln -s $PWD/bashrc       ~/.bashrc       && \
 ln -s $PWD/inputrc      ~/.inputrc      && \
-ln -s $PWD/vimrc        ~/.vimrc
+ln -s $PWD/vimrc        ~/.vimrc        && \
+ln -s $PWD/xsessionrc   ~/.xsessionrc

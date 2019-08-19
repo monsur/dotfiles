@@ -1,0 +1,5 @@
+#!/bin/sh
+
+# No more awful awful middle clicks.
+HP_MOUSE_ID=$(xinput list | grep "PixArt HP USB Optical Mouse" | head -n 1 | sed -r 's/.*id=([0-9]+).*/\1/')
+xinput --set-button-map ${HP_MOUSE_ID} 1 1 3

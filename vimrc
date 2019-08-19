@@ -38,7 +38,11 @@ filetype indent on " auto indent plugin
 set background=dark
 syntax on
 highlight MatchParen guibg=HotPink guifg=yellow gui=bold
-set guifont=Ubuntu\ Mono\ 16
+
+if has('gui_running')
+  set guifont=Ubuntu\ Mono\ 16
+  set background=dark
+endif
 
 " show trailing whitespace.
 set list

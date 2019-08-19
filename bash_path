@@ -10,4 +10,8 @@ PATH=$PATH:$HOME/.rvm/bin
 # Heroku Toolbelt
 PATH="/usr/local/heroku/bin:$PATH"
 
+# Ruby Gem
+export GEM_HOME="$HOME/gems"
+PATH="$HOME/gems/bin:$PATH"
+
 export PATH

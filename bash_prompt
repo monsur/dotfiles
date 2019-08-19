@@ -5,7 +5,8 @@ elif [[ $HOSTNAME = monsurs-mbp* ]]; then
 elif [[ $HOSTNAME = monsur* ]]; then
     color=208
 else
-  echo "No prompt color for $HOSTNAME"
+    echo "No prompt color for $HOSTNAME"
+    color=212
 fi
 
 PS1='\n\[\033[38;5;${color}m\]============================================================\n\w\n>\[\033[0m\] '

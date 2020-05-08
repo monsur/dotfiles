@@ -1,5 +1,7 @@
 if   [[ $HOSTNAME = Monsurs-* ]]; then
     color=34
+elif [[ $HOSTNAME = monsur.c* ]]; then
+    color=39
 elif [[ $HOSTNAME = monsurs-mbp* ]]; then
     color=39
 elif [[ $HOSTNAME = monsur* ]]; then

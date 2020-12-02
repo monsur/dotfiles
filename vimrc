@@ -1,4 +1,4 @@
-execute pathogen#infect()
+packloadall
 
 set nocompatible    " don't worry about vi compatibility
 set hidden          " hide buffers instead of closing them
@@ -61,3 +61,12 @@ endfunction
 if filereadable(glob("~/.vimrc.work"))
   source ~/.vimrc.work
 endif
+
+call plug#begin()
+
+Plug 'prettier/vim-prettier', { 'do': 'yarn install' }
+Plug 'vim-airline/vim-airline'
+Plug 'yuezk/vim-js'
+Plug 'maxmellon/vim-jsx-pretty'
+
+call plug#end()
